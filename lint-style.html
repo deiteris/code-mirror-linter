@@ -11,12 +11,25 @@ WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
 License for the specific language governing permissions and limitations under
 the License.
 -->
-<link rel="import" href="../polymer/polymer.html">
+<!--
+## Styles for code mirror linter
+
+## Usage example
+```html
+<style include="code-mirror-lint"></style>
+<code-mirror></code-mirror>
+```
+
+@customElement
+@group UiElements
+@memberof UiElements
+@element markdown-styles
+@polymer
+-->
 <dom-module id="code-mirror-lint">
   <template>
     <style>
     /* The lint marker gutter */
-
     .CodeMirror-lint-markers {
       width: 16px;
     }
