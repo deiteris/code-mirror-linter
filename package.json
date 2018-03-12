@@ -1,6 +1,6 @@
 {
   "name": "code-mirror-linter",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "license": "Apache-2.0 OR CC-BY-4.0",
   "description": "A source files for code mirror linter files",
   "private": false,
