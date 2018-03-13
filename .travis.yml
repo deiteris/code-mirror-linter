@@ -1,11 +1,4 @@
 language: node_js
 node_js: stable
-cache:
-  directories:
-  - node_modules
-branches:
-  only:
-    - stage
-    - develop
-after_success:
-  - node tasks/ci.js
+script:
+- node tasks/ci.js
