@@ -1,9 +1,10 @@
 {
   "name": "code-mirror-linter",
   "description": "A source files for code mirror linter files",
-  "version": "2.0.1",
-  "license": "Apache-2.0 OR CC-BY-4.0",
+  "version": "2.0.2",
+  "license": "Apache-2.0",
   "authors": [
+    "Pawel Psztyc",
     "The Advanced REST client authors <arc@mulesoft.com>"
   ],
   "keywords": [
@@ -20,7 +21,7 @@
   },
   "dependencies": {
     "polymer": "Polymer/polymer#^2.0.0",
-    "codemirror": "~5.3.0",
+    "codemirror": "^5.35.0",
     "jsonlint": "zaach/jsonlint#^1.6.0"
   },
   "devDependencies": {
@@ -29,7 +30,6 @@
   },
   "ignore": [
     "**/.*",
-    "dependencyci.yml",
     "node_modules",
     "bower_components",
     "test",
