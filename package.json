@@ -6,7 +6,7 @@
   "private": false,
   "main": "code-mirror-linter.html",
   "devDependencies": {
-    "@polymer/gen-typescript-declarations": "^1.1.1"
+    "@polymer/gen-typescript-declarations": "^1.6.1"
   },
   "author": "The Advanced REST client authors <arc@mulesoft.com>",
   "scripts": {
