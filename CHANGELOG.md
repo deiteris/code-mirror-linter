@@ -41,3 +41,13 @@
 
 
 
+## 2.0.2 (2019-02-14)
+
+
+### Update
+
+* Updated styles. ([de4bed9c359b92cc11416c4d38813b469224b348](https://github.com/advanced-rest-client/code-mirror-linter/commit/de4bed9c359b92cc11416c4d38813b469224b348))
+* Updated tests configuratyion ([1069eb97f825405904f957571a0647da58dd288b](https://github.com/advanced-rest-client/code-mirror-linter/commit/1069eb97f825405904f957571a0647da58dd288b))
+
+
+
