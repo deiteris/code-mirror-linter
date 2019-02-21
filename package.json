@@ -1,26 +1,42 @@
 {
-  "name": "@advanced-rest-client/code-mirror-linter",
-  "version": "2.0.2",
-  "license": "Apache-2.0",
   "description": "A source files for code mirror linter files",
-  "private": false,
-  "main": "code-mirror-linter.html",
+  "keywords": [
+    "web-components",
+    "polymer",
+    "code-mirror",
+    "linter"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/advanced-rest-client/code-mirror-linter.git"
+  },
+  "name": "@advanced-rest-client/code-mirror-linter",
+  "version": "3.0.0-preview.1",
+  "license": "Apache-2.0",
+  "main": "code-mirror-linter.js",
   "devDependencies": {
-    "@polymer/gen-typescript-declarations": "^1.6.1"
+    "@polymer/gen-typescript-declarations": "^1.6.1",
+    "@webcomponents/webcomponentsjs": "^2.0.0",
+    "@polymer/test-fixture": "^4.0.2",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "sinon": "^7.2.3",
+    "wct-mocha": "^1.0.0"
   },
   "author": "The Advanced REST client authors <arc@mulesoft.com>",
   "scripts": {
     "lint": "polymer lint code-mirror-linter.html",
     "test-sauce": "polymer test --plugin sauce --job-name \"code-mirror-linter:local-test\"",
     "test": "exit 0",
-    "gen-tsd": "gen-typescript-declarations --deleteExisting --outDir ."
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/advanced-rest-client/code-mirror-linter.git"
+    "update-types": "gen-typescript-declarations --deleteExisting --outDir ."
   },
   "bugs": {
     "url": "https://github.com/advanced-rest-client/code-mirror-linter/issues",
     "email": "arc@mulesoft.com"
+  },
+  "dependencies": {
+    "@polymer/polymer": "^3.0.0",
+    "codemirror": "^5.43.0",
+    "jsonlint": "^1.6.3"
   }
 }

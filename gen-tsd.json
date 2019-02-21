@@ -1,5 +1,5 @@
 {
   "excludeFiles": [
-    "tasks/*"
+    "index.html"
   ]
 }
