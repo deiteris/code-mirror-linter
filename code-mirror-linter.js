@@ -22,5 +22,5 @@ This file imports basic linter files. Use other import files for specific linter
 - code-mirror-linter/code-mirror-linter-yaml.js
 */
 import './lint-style.js';
-import '../../jsonlint/lib/jsonlint.js';
+import '../../jsonlint/web/jsonlint.js';
 import '../../codemirror/addon/lint/lint.js';
