@@ -12,7 +12,7 @@ License for the specific language governing permissions and limitations under
 the License.
 */
 import './code-mirror-linter.js';
-import 'codemirror/addon/lint/css-lint.js';
+import '../../codemirror/addon/lint/css-lint.js';
 /**
 Import for code mirror CSS linter.
 */
