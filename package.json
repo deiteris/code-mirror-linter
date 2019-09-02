@@ -26,16 +26,16 @@
     "email": "arc@mulesoft.com"
   },
   "dependencies": {
-    "lit-element": "^2.2.1",
-    "codemirror": "^5.48.2",
-    "jsonlint": "^1.6.3"
+    "codemirror": "^5.48.4",
+    "jsonlint": "^1.6.3",
+    "lit-element": "^2.2.1"
   },
   "devDependencies": {
-    "@advanced-rest-client/eslint-config": "^1.0.6",
+    "@advanced-rest-client/eslint-config": "^1.1.2",
     "@advanced-rest-client/prettier-config": "^0.1.0",
-    "@polymer/gen-typescript-declarations": "^1.6.2",
     "@commitlint/cli": "^8.1.0",
     "@commitlint/config-conventional": "^7.0.0",
+    "@polymer/gen-typescript-declarations": "^1.6.2",
     "husky": "^1.0.0",
     "lint-staged": "^8.0.0"
   },
