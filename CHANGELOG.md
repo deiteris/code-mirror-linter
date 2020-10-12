@@ -97,3 +97,24 @@
  [1069eb9](https://github.com/advanced-rest-client/code-mirror-linter/commit/1069eb97f825405904f957571a0647da58dd288b) by Pawel Psztyc
 
 
+<a name="3.0.2"></a>
+## [3.0.2](https://github.com/advanced-rest-client/code-mirror-linter/compare/3.0.0...3.0.2) (2020-10-12)
+
+### Build
+
+* bumping version [496b943](https://github.com/advanced-rest-client/code-mirror-linter/commit/496b943b568515f187dca072bab0d46557c35f3c) by Pawel Psztyc
+
+
+### Continuous integration
+
+* updating travis config [0ef1521](https://github.com/advanced-rest-client/code-mirror-linter/commit/0ef1521e3d0fbbd298ae159e52f5e2a7c5fe2d39) by Pawel Psztyc
+
+
+### Update
+
+* updating dependencies and adding types [ff30e4d](https://github.com/advanced-rest-client/code-mirror-linter/commit/ff30e4db349712abc3caacf905084510c26db7b8) by Pawel
+* [ci skip] automated merge master->stage. syncing main branches [d82c351](https://github.com/advanced-rest-client/code-mirror-linter/commit/d82c351309af018bd15d748a88ff388720baf7a6) by Ci agent
+* upgrading dependencies [06c0489](https://github.com/advanced-rest-client/code-mirror-linter/commit/06c0489ccbd90a5a4843f1b776e326011c782cd9) by Pawel Psztyc
+* upgrading dependencies to fix audit errors [bf02681](https://github.com/advanced-rest-client/code-mirror-linter/commit/bf026818ad57826bb5db10ed144bb6e9b804fab5) by Pawel Psztyc
+
+
