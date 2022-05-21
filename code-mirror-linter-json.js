@@ -12,6 +12,7 @@ License for the specific language governing permissions and limitations under
 the License.
 */
 import './code-mirror-linter.js';
+import 'jsonlint-mod/web/jsonlint.js';
 import 'codemirror/addon/lint/json-lint.js';
 /**
 Import for code mirror json linter.
